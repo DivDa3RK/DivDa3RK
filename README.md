@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:020024,50:090979,100:00d4ff&height=280&section=header&text=MaSTeR%20DaRK&fontSize=70&fontColor=ff00ff&animation=twinkling" />
+  <img src="https://d2fmm4xlexpx3g.cloudfront.net/melobytes_com/glitcher/38739fa12eb91b5c4748e22cda56620c72688e32a3353eb6907d5092c7842225/glitcher.gif" />
 </p>
 
 <!-- ✅ Profile Views Counter - WORKING -->
