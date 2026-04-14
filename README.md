@@ -4,15 +4,13 @@
 
 <!-- ✅ Profile Views Counter - WORKING -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=KaboSec&style=for-the-badge&color=00FFE1&label=👁️+VIEWS" alt="Views" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=200&color=FF00FF&center=true&vCenter=true&width=800&lines=AI+BOOT...;SYSTEM+ONLINE;GLITCH+DETECTED...;MEMORY+CORRUPTION;CLONING...;CONTROL+ACQUIRED" />
 </p>
 
 <!-- ✅ GitHub Snake Animation - WORKING -->
-<div align="center">
-  <a href="https://github.com/KaboSec">
-    <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%" />
-  </a>
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=24&pause=150&color=FF00FF&center=true&vCenter=true&width=800&lines=%5BINIT%5D+AI_BOOT...;%5BOK%5D+SYSTEM_ONLINE;%E2%9A%A0+GLITCH_DETECTED...;%5BERR%5D+MEMORY_CORRUPTION;%5B🤖%5D%5B🤖%5D%5B🤖%5D+CLONING...;CONTROL+%3D+ACQUIRED+%F0%9F%92%80" />
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=28&pause=600&color=00FFE1&center=true&vCenter=true&width=900&lines=Cybersecurity+Engineer;Web+Application+Security;Offensive+Security+Automation;AI-driven+Security+Tools" alt="Title" />
