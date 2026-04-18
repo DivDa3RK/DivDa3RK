@@ -1,4 +1,7 @@
 <!--- 🔥 DIVDA3RK - ULTRA PREMIUM PROFILE 🔥 --->
+<!-- تضمين الخطوط لضمان ظهورها بشكل صحيح -->
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30&height=120&section=header&text=DivDa3RK&fontSize=45&fontAlignY=30&animation=fadeIn&fontColor=00FF88&desc=⚡%20CYBER%20PHANTOM%20⚡&descAlignY=45&descSize=12">
@@ -34,7 +37,7 @@
         <td align="center"><b>📊 TODAY</b><br><font color="#00FF88">184</font></td>
         <td align="center"><b>🌍 TOTAL</b><br><font color="#00FF88">2.4K</font></td>
         <td align="center"><b>🔥 PEAK</b><br><font color="#00FF88">47</font></td>
-      </td>
+      </tr>
     </table>
     <br>
     <i>⚡ recent viewers: <b>@anonymous_1337</b> • <b>@root_sec</b> • <b>@zeroday_hunter</b> • <b>@you_are_next</b></i>
@@ -51,8 +54,16 @@
     <table border="1" cellpadding="8" style="background:#0A0A0A; border-color:#FF44FF">
       <tr>
         <td align="center">
-          <b>🎯 TARGET ACQUIRED</b><br>
-          <code style="font-size:22px">[ 💀 ]  [ 🤖 ]  [ 🛡️ ]  [ ⚡ ]  [ 🔥 ]</code><br><br>
+          <b>🎯 TARGET ACQUIRED</b><br><br>
+          <!-- تم تحويل الأيقونات إلى أزرار لكي يعمل عليها كود الجافاسكربت -->
+          <div id="gameIcons" style="font-size:22px; cursor:pointer; letter-spacing: 8px;">
+            <button class="game-icon" style="background:none;border:none;font-size:22px;cursor:pointer;">💀</button>
+            <button class="game-icon" style="background:none;border:none;font-size:22px;cursor:pointer;">🤖</button>
+            <button class="game-icon" style="background:none;border:none;font-size:22px;cursor:pointer;">🛡️</button>
+            <button class="game-icon" style="background:none;border:none;font-size:22px;cursor:pointer;">⚡</button>
+            <button class="game-icon" style="background:none;border:none;font-size:22px;cursor:pointer;">🔥</button>
+          </div>
+          <br>
           <code id="gameScore">SCORE: 0000</code> <code id="gameTime">TIME: 00:00</code><br><br>
           <sub>⚡ click any icon → +100 pts → 2 sec combo → ⚡</sub><br>
           <sub>🔥 5 hits = BONUS +500 🔥</sub>
@@ -68,37 +79,37 @@
 
 <!-- 📊 COMPACT STATS GRID -->
 <div align="center">
-  <table width="100%">
+  <table width="100%" style="max-width: 900px; margin: 0 auto;">
     <tr>
-      <td width="33%"><img src="https://github-readme-stats.vercel.app/api?username=DivDa3RK&show_icons=true&theme=dark&bg_color=0A0A0A&title_color=00FF88&icon_color=00FF88&text_color=CCCCCC&hide_border=true&count_private=true&include_all_commits=true&card_width=300&hide=contribs,prs&ring_color=00FF88&fire_color=FF4444" width="100%"></td>
-      <td width="33%"><img src="https://github-readme-streak-stats.herokuapp.com/?user=DivDa3RK&theme=dark&background=0A0A0A&ring=00FF88&fire=FF4444&currStreakLabel=00FF88&sideLabels=CCCCCC&sideNums=00FF88&currStreakNum=00FF88&dates=888888&hide_border=true&card_width=300" width="100%"></td>
-      <td width="33%"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DivDa3RK&layout=compact&theme=dark&bg_color=0A0A0A&title_color=00FF88&text_color=CCCCCC&hide_border=true&card_width=300&langs_count=6" width="100%"></td>
+      <td width="33%" align="center"><img src="https://github-readme-stats.vercel.app/api?username=DivDa3RK&show_icons=true&theme=dark&bg_color=000000&title_color=00FF88&icon_color=00FF88&text_color=CCCCCC&hide_border=true&count_private=true&include_all_commits=true&hide=contribs,prs" width="100%"></td>
+      <td width="33%" align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=DivDa3RK&theme=dark&background=000000&ring=00FF88&fire=FF4444&currStreakLabel=00FF88&sideLabels=CCCCCC&sideNums=00FF88&currStreakNum=00FF88&dates=888888&hide_border=true" width="100%"></td>
+      <td width="33%" align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DivDa3RK&layout=compact&theme=dark&bg_color=000000&title_color=00FF88&text_color=CCCCCC&hide_border=true&langs_count=6" width="100%"></td>
     </tr>
   </table>
 </div>
 
 <!-- 🎯 CORE IDENTITY - PREMIUM -->
 <div align="center">
-  <table width="90%">
+  <table width="90%" style="max-width: 800px;">
     <tr>
       <td width="50%" valign="top">
-        <pre style="font-family:'Share Tech Mono'; font-size:11px; background:#0A0A0A; padding:12px; border-left:3px solid #00FF88">
+        <pre style="font-family:'Share Tech Mono', monospace; font-size:11px; background:#000000; padding:12px; border-left:3px solid #00FF88; color:#CCCCCC; border-radius:4px;">
 ┌─────────────────────────────────┐
-│ 💀 <b>IDENTITY_MATRIX</b>            │
+│ 💀 <b style="color:#00FF88">IDENTITY_MATRIX</b>            │
 ├─────────────────────────────────┤
 │ NAME    : DivDa3RK              │
 │ ROLE    : Cyber Phantom         │
 │ FOCUS   : Web • AI • Zero-Day   │
-│ STATUS  : <font color="#00FF88">● ACTIVE</font>            │
+│ STATUS  : ● ACTIVE              │
 │ TOOLKIT : Kali • Burp • MSF     │
 │ MOTTO   : "ghost in the wire"   │
 └─────────────────────────────────┘
         </pre>
       </td>
       <td width="50%" valign="top">
-        <pre style="font-family:'Share Tech Mono'; font-size:11px; background:#0A0A0A; padding:12px; border-left:3px solid #FF44FF">
+        <pre style="font-family:'Share Tech Mono', monospace; font-size:11px; background:#000000; padding:12px; border-left:3px solid #FF44FF; color:#CCCCCC; border-radius:4px;">
 ┌─────────────────────────────────┐
-│ ⚡ <b>SKILLS_MATRIX</b>               │
+│ ⚡ <b style="color:#FF44FF">SKILLS_MATRIX</b>               │
 ├─────────────────────────────────┤
 │ Web Pentesting    ████████░░ 85%│
 │ Offensive AI      ███████░░░ 72%│
@@ -114,16 +125,18 @@
 
 <!-- 🔥 TECH STACK - COMPACT -->
 <div align="center">
-  <code style="font-size:10px">⚡ PRIMARY</code><br>
-  <img src="https://skillicons.dev/icons?i=python,go,bash,rust,js&theme=dark&perline=5" width="180">
+  <br>
+  <code style="font-size:10px; color:#00FF88">⚡ PRIMARY</code><br>
+  <img src="https://skillicons.dev/icons?i=python,go,bash,rust,js&theme=dark&perline=5" width="200">
   <br><br>
-  <code style="font-size:10px">🛠️ TOOLS</code><br>
-  <img src="https://skillicons.dev/icons?i=linux,kali,docker,aws,git&theme=dark&perline=5" width="180">
+  <code style="font-size:10px; color:#00FF88">🛠️ TOOLS</code><br>
+  <img src="https://skillicons.dev/icons?i=linux,docker,aws,git,nginx&theme=dark&perline=5" width="200">
+  <br>
 </div>
 
 <!-- 📈 ACTIVITY GRAPH - COMPACT -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DivDa3RK&bg_color=0A0A0A&color=00FF88&line=FF44FF&point=FFFFFF&area=true&hide_border=true&height=150&days=14" width="100%">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DivDa3RK&bg_color=000000&color=00FF88&line=FF44FF&point=FFFFFF&area=true&hide_border=true&height=150&days=14" width="100%">
 </div>
 
 <!-- 🏆 TROPHIES - COMPACT -->
@@ -134,7 +147,7 @@
 <!-- 🌐 CONNECT - MINIMAL -->
 <div align="center">
   <br>
-  <code>⟫ CONNECT WITH THE PHANTOM ⟪</code><br><br>
+  <code style="color:#00FF88">⟫ CONNECT WITH THE PHANTOM ⟪</code><br><br>
   <a href="https://github.com/DivDa3RK"><img src="https://img.shields.io/badge/GH-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0A0A0A&color=00FF88"/></a>
   <a href="#"><img src="https://img.shields.io/badge/TW-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=0A0A0A&color=00FF88"/></a>
   <a href="#"><img src="https://img.shields.io/badge/IN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0A0A&color=00FF88"/></a>
@@ -146,10 +159,10 @@
   <br>
   <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30&height=40&section=footer" width="100%">
   <br>
-  <sub><code>© DivDa3RK • encrypted • 0x7E5 • ghost mode</code></sub>
+  <sub><code style="color:#888888">© DivDa3RK • encrypted • 0x7E5 • ghost mode</code></sub>
 </div>
 
-<!-- 🔧 GAME SCRIPT - REAL INTERACTIVE -->
+<!-- 🔧 GAME SCRIPT - REAL INTERACTIVE (تم إصلاحه ليعمل مع الأزرار الجديدة) -->
 <script>
 (function() {
   let score = 0;
@@ -158,26 +171,47 @@
   const scoreEl = document.getElementById('gameScore');
   const timeEl = document.getElementById('gameTime');
   
-  if(scoreEl) {
+  if(scoreEl && timeEl) {
     let seconds = 0;
+    
+    // تشغيل المؤقت
     setInterval(() => {
       if(gameActive && seconds < 60) {
         seconds++;
         timeEl.innerText = `TIME: 00:${seconds.toString().padStart(2,'0')}`;
+      } else if (seconds >= 60) {
+        gameActive = false;
+        timeEl.innerText = "TIME'S UP!";
+        timeEl.style.color = "#FF4444";
       }
     }, 1000);
     
-    document.querySelectorAll('code[style*="font-size:22px"] span, .game-icon').forEach(el => {
-      el?.addEventListener('click', () => {
+    // ربط الحدث بالأزرار التي تم إضافتها حديثاً
+    document.querySelectorAll('.game-icon').forEach(btn => {
+      btn.addEventListener('click', function(e) {
         if(!gameActive) return;
+        e.preventDefault(); // منع أي سلوك افتراضي
+        
         score += 100 + (combo * 50);
         combo++;
+        
+        // تأثير بصري عند الضغط
+        this.style.transform = 'scale(1.3)';
+        setTimeout(() => { this.style.transform = 'scale(1)'; }, 150);
+        
         if(combo >= 5) {
           score += 500;
           combo = 0;
+          scoreEl.style.color = "#FF44FF";
+          setTimeout(() => { scoreEl.style.color = "#FF44FF"; }, 300);
         }
+        
         scoreEl.innerText = `SCORE: ${score.toString().padStart(4,'0')}`;
-        setTimeout(() => { combo = 0; }, 2000);
+        
+        // إعادة ضبط الكومبو إذا توقف اللاعب عن الضغط لمدة ثانيتين
+        setTimeout(() => { 
+          if(combo > 0 && combo < 5) combo = 0; 
+        }, 2000);
       });
     });
   }
